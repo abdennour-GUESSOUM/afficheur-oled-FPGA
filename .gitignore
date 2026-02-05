@@ -1,0 +1,125 @@
+# ============================================
+# Xilinx Vivado Build Artifacts
+# ============================================
+
+# Vivado Project Directories (Generated)
+Vivado/*.cache/
+Vivado/*.gen/
+Vivado/*.ip_user_files/
+Vivado/*.runs/
+Vivado/*.sim/
+Vivado/*.hw/
+
+# Vivado Generated Files
+*.bit
+*.hwh
+*.rpt
+*.log
+*.jou
+*.dcp
+*.protoinst
+*.wdf
+*.ltx
+*.debug
+
+# Simulation Files
+*.wdb
+*.wcfg
+
+# ============================================
+# Xilinx Vitis Build Artifacts
+# ============================================
+
+# Vitis Build Directories
+Vitis/*/build/
+Vitis/*/_ide/
+Vitis/*/src/.cache/
+Vitis/logs/
+
+# Vitis Generated Files
+**/*.o
+**/*.a
+**/*.elf
+**/*.obj
+*.d
+*.S
+
+# CMake Build Files
+CMakeCache.txt
+CMakeFiles/
+**/*.cmake
+!**/CMakeLists.txt
+cmake_install.cmake
+Makefile
+
+# Compile Commands (duplicates from build)
+compile_commands.json
+**/compile_commands.json
+
+# Platform BSP (large pre-compiled files - regenerate from XSA)
+Vitis/platform/
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+
+# Theia/VSCode
+.theia/
+.vscode/
+
+# Xilinx Tool Cache
+.Xilinx/
+
+# Clangd Cache
+.clangd/
+.cache/
+
+# IDE Metadata
+*.idx
+*.marks
+*.ts
+.internal
+
+# ============================================
+# Tool Lock Files and Logs
+# ============================================
+
+.lock
+.lock.*
+*.lock
+*.lpr
+.peers.ini
+
+# Vivado/Vitis Workspace
+.repo.yaml
+.vitisWorkspace.json
+.metadata/
+
+# ============================================
+# OS and System Files
+# ============================================
+
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.swp
+*.swo
+*~
+.tmp/
+
+# ============================================
+# Build and Simulation Libraries
+# ============================================
+
+compile_simlib/
+xsim.dir/
+*.pb
+
+# ============================================
+# Custom Exclusions
+# ============================================
+
+# User-specific paths (adjust as needed)
+*.user
+local.properties
