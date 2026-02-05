@@ -56,8 +56,7 @@ Configuration de la plateforme:
 
 Les fichiers suivants ne sont **pas inclus** dans Git (108 MB):
 
-- Artefacts de build Vivado (~39 MB)
-- Artefacts de build Vitis (~69 MB)
+- Artefacts de build Vivado / Vitis
 - BSP de la plateforme (à régénérer depuis le `.xsa`)
 - Fichiers de cache et logs
 
@@ -67,4 +66,3 @@ Pour reconstruire le projet, il suffit d'ouvrir le projet Vivado et Vitis, puis 
 
 - Le projet utilise le processeur ARM Cortex-A9 du Zynq
 - Le BSP standalone est configuré pour ps7_cortexa9_0
-- Les fichiers générés sont automatiquement exclus par `.gitignore`
